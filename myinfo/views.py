@@ -4,4 +4,4 @@ from django.contrib.auth.models import User
 # Create your views here.
 
 def Homepage(request):
-    return render(request, 'myinfo/home.html', {'Name': 'Home Page'})
+    return render(request, 'myinfo/home.html', {'name': 'Home Page'})
